@@ -1,0 +1,73 @@
+div header {
+    color:rgb(0, 220, 200);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+div.textbox header {
+    color:rgb(0, 220, 200);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+    font-weight:bolder;
+    font-size:x-large
+}
+
+
+body.main {
+    background-color: rgb(46, 46, 46);
+
+    
+}
+
+
+
+div.centered {
+    background-color:rgb(109, 109, 109);
+    width:620px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    
+}
+
+div.textbox {
+    border-color: rgb(109, 109, 109);
+    border-style:dotted;
+    width:600px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    
+}
+
+div.textbox p {
+    color:rgb(255, 252, 252);
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+div.textbox div {
+    width:150px;
+    background-color:rgb(109, 109, 109);
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top:-10px
+
+}
+
+
