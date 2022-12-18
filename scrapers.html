@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>
+        Games
+    </title>
+</head>
+
+
+
+</div>
+<body class="main">
+
+    <ul class="navbar" >
+        <li onclick="location.href = 'index.html'">
+            Home
+        </li>
+        <li onclick="location.href = 'games.html'">
+            Games
+        </li>
+        <li>
+            Tools
+        </li>
+        <li onclick="location.href = 'scrapers.html'">
+            Scrapers
+        </li>
+    </ul>
+
+
+
+    <div class="centered" style="margin-top: 1vh";>
+        <header>
+            Games
+        </header>
+    </div>
+
+
+<div class="textbox" style="width:fit-content";>
+
+    <p>
+        This page lists some of the web scrapers that I have written.
+        All of these scraper are written in Python 3.X.
+        <br>
+        All of these scrapers use BeautifulSoup to parse HTML text. When possible,
+        the requests package is used to connect to a site and pull the raw HTML.
+        <br>
+        When a web page makes use of JavaScript-generated HTML, I usually make
+        use of the Selenium web driver.
+        <br>
+        <br>
+        I hope to make a scraper infrastructure application soon. The application would
+        allow users to easily manage scraper use, as well as standardize scraper outputs
+        to data bases of the user's choice!
+
+    </p>
+</div>
+
+
+<div class="preview">
+    <img src="AESOCSD.png" class = "thumbnail"></img>
+    <p>
+        The AESO CSD Scraper is a Python application that pulls data from 
+        the AESO's (Alberta Electric System Operator) current supply/demand report.
+    <br>
+    <br>
+    Data is pulled with respect to asset tag and fuel type, and reports
+    available capacity, generated capacity, etc.
+    <br>
+    <br>
+    <a href="https://github.com/desobob11/CSD-Scraper" target="_blank">
+            Github
+    </a>
+    <br>
+    <a href="http://ets.aeso.ca/ets_web/ip/Market/Reports/CSDReportServlet" target="_blank">
+        AESO Current Supply/Demand
+</a>
+ </p>
+</div>
+
+
+<div class="padding"></div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

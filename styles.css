@@ -44,11 +44,12 @@ div.textbox {
     border-style:dotted;
     width:50vw;
     border-radius: 10px;
+    border-width: 3px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
     position: relative;
-    top: 50px;
+    top: 5vh;
     background-color: rgb(20,20,20);
     
 }
@@ -58,6 +59,16 @@ div.textbox p {
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    margin-left: 0;
+}
+
+div.preview p {
+    color:rgb(255, 252, 252);
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 1vw;
+    font-size: small;
 }
 
 div.textbox div {
@@ -114,6 +125,39 @@ ul.navbar li:hover {
 }
 
 
+a:link, a:visited {
+    cursor:pointer;
+    color:rgb(0, 220, 200);
+    text-decoration: underline;
+}
 
+
+
+
+
+div.preview {
+
+    margin-left: 37.5vw;
+    margin-top: 15vh;
+
+    border-style:dotted;
+    border-color:rgb(109, 109, 109);
+    background-color: rgb(20,20,20);
+    border-width: 3px;
+    border-radius: 10px;
+    width: 25vw;
+    margin-bottom: -10vh;
+}
+
+img.thumbnail {
+    width:25vw;
+    height:25vh;
+    border-radius: 10px;;
+    
+}
+
+div.padding {
+    height: 30vh;
+}
 
 
