@@ -34,8 +34,9 @@ div.centered {
     margin: 0 auto;
     flex-direction: column;
 
-    
 }
+
+
 
 div.textbox {
     border-color: rgb(109, 109, 109);
@@ -69,5 +70,42 @@ div.textbox div {
     top:-10px
 
 }
+
+ul.navbar {
+    background-color: rgb(14, 14, 14);
+    margin: 0;
+    list-style: none;
+    margin: 0;
+
+    padding: 1;
+    display: block;
+    word-spacing: 3vw;
+    padding-left: 1vw;
+
+
+}
+
+ul.navbar li {
+    color:rgb(0, 220, 200);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+    font-weight:bolder;
+    width: fit-content;
+    font-size:x-large;
+    display: inline;
+    cursor:pointer;
+    user-select: none;
+
+
+
+}
+
+ul.navbar li:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+
+
 
 
