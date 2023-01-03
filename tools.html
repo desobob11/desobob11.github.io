@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styles.css" />
 
     <title>
-        Scrapers
+        Tools
     </title>
 </head>
 
@@ -35,7 +35,7 @@
 
     <div class="centered" style="margin-top: 1vh";>
         <header>
-            Scrapers
+            Tools
         </header>
     </div>
 
@@ -43,57 +43,25 @@
 <div class="textbox" style="width:fit-content";>
 
     <p>
-        This page lists some of the web scrapers that I have written.
-        All of these scraper are written in Python 3.X.
-        <br>
-        All of these scrapers use BeautifulSoup to parse HTML text. When possible,
-        the requests package is used to connect to a site and pull the raw HTML.
-        <br>
-        When a web page makes use of JavaScript-generated HTML, I usually make
-        use of the Selenium web driver.
-        <br>
-        <br>
-        I hope to make a scraper infrastructure application soon. The application would
-        allow users to easily manage scraper use, as well as standardize scraper outputs
-        to data bases of the user's choice!
+        This page lists some general purpose tools that I have built.
 
     </p>
 </div>
 
 
+
 <div class="preview">
-    <img src="AESOCSD.PNG" class = "thumbnail"></img>
+    <img src="bulk.PNG" class = "thumbnail"></img>
     <p>
-        The AESO CSD Scraper is a Python application that pulls data from 
-        the AESO's (Alberta Electric System Operator) current supply/demand report.
+        A working prototype of a bulk file transfer tool.
     <br>
     <br>
-    Data is pulled with respect to asset tag and fuel type, and reports
-    available capacity, generated capacity, etc.
+        Implemented in Python with PyQT, the tool compares the hashes
+        of each file's binary data in a source directory to a destination directory,
+        and writes a copy to the source directory if no matching hash is found.
     <br>
     <br>
-    <a href="https://github.com/desobob11/CSD-Scraper" target="_blank">
-            Github
-    </a>
-    <br>
-    <a href="http://ets.aeso.ca/ets_web/ip/Market/Reports/CSDReportServlet" target="_blank">
-        AESO Current Supply/Demand
-    </a>
- </p>
-</div>
-<div class="preview">
-    <img src="scraper_hub.PNG" class = "thumbnail"></img>
-    <p>
-        This is a simple Python GUI that makes managing SQL
-        drivers across my personal scrapers simple!
-    <br>
-    <br>
-        Driver information for each scraper script can be edited and saved
-        using a table view built using PyQt.
-        (Need to update repo)
-    <br>
-    <br>
-    <a href="https://github.com/desobob11/CSD-Scraper" target="_blank">
+    <a href="https://github.com/desobob11/FileTransfer" target="_blank">
             Github
     </a>
     <br>
